@@ -1,0 +1,27 @@
+{
+  "name": "testnetcollector",
+  "version": "1.0.0",
+  "description": "Blockchain data collector",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pigeoncoin (spiderywookie)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.5.0",
+    "bitcoind-rpc": "^0.7.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "install": "^0.11.0",
+    "moment": "^2.22.1",
+    "mysql": "^2.15.0",
+    "npm": "^6.0.0",
+    "sqlstring": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
